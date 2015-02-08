@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|end">
+
+    <Button android:id="@+id/button_home" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:layout_weight="1"
+        android:background="@drawable/ic_menu_home" android:textColor="#FFFFFF"
+        android:padding="5px"></Button>
+
+
+    <Button android:id="@+id/button_search" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:layout_weight="1"
+        android:background="@drawable/ic_search_category_default" android:textColor="#FFFFFF"
+        android:padding="5px"></Button>
+
+    <Button android:id="@+id/button_camera" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:layout_weight="1"
+        android:background="@drawable/perm_group_camera" android:textColor="#FFFFFF"
+        android:padding="5px"></Button>
+
+    <Button android:id="@+id/button_profile" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:layout_weight="1"
+        android:background="@drawable/perm_group_system_tools" android:textColor="#FFFFFF"
+        android:padding="5px"></Button>
+
+    <Button android:id="@+id/profile_a" android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:layout_weight="1"
+        android:background="@drawable/perm_group_system_tools" android:textColor="#FFFFFF"
+        android:padding="5px"></Button>
+
+</LinearLayout>
